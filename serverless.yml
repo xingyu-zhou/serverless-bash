@@ -1,0 +1,8 @@
+service: test-shell
+frameworkVersion: '3'
+provider:
+  name: aws
+  runtime: provided
+functions:
+  shell:
+    handler: index.main_handler
